@@ -1,7 +1,5 @@
-const hey = 'Heyyy';
-console.log(`${hey} webpack funcionando!`);
-
-import { User } from './src/User';
+import User from './src/user';
 
 let user = new User('wescley', 'matos');
-console.log(user);
+alert(user.nomeCompleto());
+
